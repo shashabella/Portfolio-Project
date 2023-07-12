@@ -28,7 +28,7 @@ p {
   line-height: 30px;
 }
 .project-description {
-  padding: 20px;
+  padding: 20px 40px;
 }
 .hero {
   background: var(--secondary-color);
@@ -64,12 +64,19 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
 @media (max-width: 900px) {
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
   h1 {
     font-size: 60px;
   }
-  .project-description {
-    padding: 0;
-    text-align: center;
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
   }
 }
