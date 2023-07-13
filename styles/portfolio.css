@@ -57,7 +57,8 @@ p {
   font-family: var(--default-font-family);
 }
 .ayesha {
-  max-width: 560px;
+  width: 450px;
+  height: 560px;
 }
 .btn-branding {
   background: var(--branding-color);
