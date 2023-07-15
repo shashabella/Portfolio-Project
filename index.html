@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Websites</title>
+    <title>Portfolio Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,6 +35,29 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="Images/logo.png"
+            alt="logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="Images/logo-small.jpg"
+            alt="Small Logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li class="active"><a href="/index.html"> Home</a></li>
+          <li><a href="/about.html"> About</a></li>
+          <li><a href="/work.html"> Work</a></li>
+          <li><a href="/contact.html"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="hero">
       <p>👋Hi I am</p>
       <h1>Ayesha Issah</h1>
@@ -96,6 +119,16 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="d-flex justify-content-center">
+          <a href="mailto:ayeshaissah1@gmail.com" class="email-link"></a>
+        </div>
+        <div class="social-links">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""> <i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
