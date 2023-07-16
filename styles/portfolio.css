@@ -152,10 +152,12 @@ footer {
 }
 @media (max-width: 900px) {
   .project-description {
-    text-align: center;
     padding: 0;
   }
-
+  .descript {
+    display: flex;
+    justify-content: center;
+  }
   h1 {
     font-size: 60px;
   }
