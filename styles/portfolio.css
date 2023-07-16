@@ -82,6 +82,7 @@ p {
 .content {
   margin: 30px;
 }
+
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
@@ -161,6 +162,9 @@ footer {
     text-align: center;
   }
   h1 {
+    font-size: 60px;
+  }
+  .content h1 {
     font-size: 60px;
   }
 
