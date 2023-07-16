@@ -154,9 +154,11 @@ footer {
   .project-description {
     padding: 0;
   }
+
   .descript {
     display: flex;
-    justify-content: center;
+    width: 200%;
+    text-align: center;
   }
   h1 {
     font-size: 60px;
